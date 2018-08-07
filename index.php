@@ -17,7 +17,7 @@
  * 
  * @return float
  */
-function standDeviation(array $array = []) {
+function calculateStandardDeviation(array $array = []) {
 	$numOfElements = count($array);
 	$variance = 0.0;
 	$average = (array_sum($array) / $num_of_elements);
